@@ -271,6 +271,75 @@
         <mxCell id="moyZTGKr0rTBqRhNdf2y-110" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Note--&amp;gt;&lt;/b&gt; If a class can belongs to multiple instances then it can not be a composition relationship. &lt;br&gt;It can be aggregation relationship.&lt;br&gt;&amp;nbsp;e.g a house can belongs to multiple persons so it can be a aggregation relation and not composition.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="740" width="580" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-112" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&quot; is a &quot; :--&amp;gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="860" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-113" value="This is used to showcase inheritance." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="885" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-115" value="class Living being" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-116" value="class Animal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-117" value="class Human" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-120" value="" style="edgeStyle=none;html=1;endSize=12;endArrow=block;endFill=0;rounded=0;entryX=0.428;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="moyZTGKr0rTBqRhNdf2y-116" target="moyZTGKr0rTBqRhNdf2y-115">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="1000" as="sourcePoint" />
+            <mxPoint x="800" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-121" value="" style="edgeStyle=none;html=1;endSize=12;endArrow=block;endFill=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="moyZTGKr0rTBqRhNdf2y-117" target="moyZTGKr0rTBqRhNdf2y-115">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="1000" as="sourcePoint" />
+            <mxPoint x="800" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-122" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;solid line&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1015" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-123" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="moyZTGKr0rTBqRhNdf2y-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="1090" as="sourcePoint" />
+            <mxPoint x="920" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-124" value="&amp;lt;&amp;lt;&lt;i&gt;interface_1&lt;/i&gt;&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-125" value="&amp;lt;&amp;lt;&lt;i&gt;interface_2&lt;/i&gt;&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-129" value="" style="edgeStyle=none;html=1;endSize=12;endArrow=block;endFill=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="moyZTGKr0rTBqRhNdf2y-124">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="870" y="1250" as="sourcePoint" />
+            <mxPoint x="865" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-131" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="moyZTGKr0rTBqRhNdf2y-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="1250" as="sourcePoint" />
+            <mxPoint x="1030" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moyZTGKr0rTBqRhNdf2y-133" target="moyZTGKr0rTBqRhNdf2y-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-133" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Note:--&amp;gt;&lt;/b&gt;To represent its an interface eighter use italic font&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;or 2 angular brackets around its name&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1179" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-135" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Note:--&amp;gt;&lt;/b&gt;Inheritance from interface is&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;denotated using dotted lines.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1260" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-136" value="&lt;i&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Example 1&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moyZTGKr0rTBqRhNdf2y-137" value="&lt;i&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Example 2&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1420" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
